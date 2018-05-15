@@ -1,0 +1,33 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^6.0.0",
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.1",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.1",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scroll-to-component": "^1.0.2",
+    "react-timestamp": "^4.4.0",
+    "reactjs-popup": "^1.1.1",
+    "round-to": "^3.0.0",
+    "semantic-ui-react": "^0.80.0",
+    "solc": "^0.4.23",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^1.0.0-beta.26"
+  }
+}
